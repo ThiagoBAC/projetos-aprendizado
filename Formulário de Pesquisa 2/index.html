@@ -1,0 +1,85 @@
+
+
+<head>
+
+</head>
+
+<body>   
+
+
+<h1 id="title">Formulário de Pesquisa 2</h1>
+<p id="description">Obrigado pelo Feedback</p>
+
+<form id="survey-form">
+    <div>
+        <label for="name" id="name-label">Nome</label>
+        <input id="name" name="name" type="text" placeholder="Seu nome aqui..." required>
+    </div>
+    <div>
+        <label for="email" id="email-label">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="Seu e-mail aqui..." required>
+    </div>
+    <div>
+        <label for="number" id="number-label">Idade</label>
+        <input id="number" name="number" type="number" min="18" max="100" placeholder="Sua idade aqui">
+    </div>
+    <div>
+        <label for="dropdown">Selecione seu sexo:</label>
+        <select name="sexo" id="dropdown" required>
+            <option disabled selected value="">Selecione</option>
+            <option value="masculino">masculino</option>
+            <option value="feminino">feminino</option>
+            <option value="indefinido">indefinido</option>
+        </select>
+    </div>    
+    <div>
+        <p>Você se considera um: </p>
+        <label>
+            <input type="radio" value="programador" name="user-recommend" checked>
+            Programador
+        </label>
+        <label>
+            <input type="radio" value="desenvolvedor" name="user-recommend">
+            Desenvolvedor
+        </label>
+        <label>
+            <input type="radio" value="iniciante" name="user-recommend">
+            Iniciante
+        </label>
+    </div>
+    <div>
+        <p>Selecione suas especialidades:
+            <span></span>
+        </p>
+        <label>
+            <input type="checkbox" name="prefer" value="html">
+            Html            
+        </label>
+        <label>
+            <input type="checkbox" name="prefer" value="javascript">
+            JavaScript
+        </label>
+            <input type="checkbox" name="prefer" value="python">
+            Python
+        </label>
+        <label> 
+            <input type="checkbox" name="prefer" value="AI">
+            Inteligência Artificial
+        </label>
+    </div>
+    <div>
+        <label>
+            <p>Deixa aqui sugestões ou comentários:</p>
+            <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Deixa seu comentário..."></textarea>
+        </label>
+    </div>
+    <div>
+        <button id="submit" type="submit">
+            Enviar            
+        </button>
+    </div>
+        
+</form>
+
+</body>
+

@@ -1,0 +1,75 @@
+<head>
+    <title>Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="div1">
+    <h1 id="title">
+    Fomulário de Pesquisa   
+    </h1>
+    <p id="description">Obrigado por nos ajudar a melhorar nossa plataforma
+    </p>
+
+    <form id="survey-form">
+    <div>
+        <label for="name"  id="name-label">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Entre com seu nome" required="">
+    </div>
+
+    <div>
+        <label for="email" id="email-label">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Entre com seu email" required="">
+    </div>
+
+    <div>
+        <label for="number" id="number-label">Idade</label>
+        <input type="number" id="number" name="number" min="17" max="50" placeholder="Entre com sua idade" required="">
+    </div>
+    
+    <div id="dropdown">
+        <p>Qual opção descreve melhor sua função atual?</p>
+        <select name="role" required="">
+            <option disabled="" selected="" value="">Selecione</option>
+            <option value="estudante">Estudante</option>
+            <option value="trabalhador">Trabalhador</option>
+            <option value="outros">Outros</option>
+          </select>
+    </div>    
+    
+    <div>
+        <p>Sexo:</p>
+        <label>
+          <input name="user-recommend" value="masculino" type="radio" class="input-radio" checked="">Masculino</label>
+        <label>
+          <input name="user-recommend" value="feminino" type="radio" class="input-radio">Feminino</label>
+  
+        <label><input name="user-recommend" value="indefinido" type="radio" class="input-radio">Indefinido</label>
+    </div>
+
+    <div>
+        <p>
+          O que você gostaria que fosse melhorado?
+          <span>(Marque todas as opções aplicáveis)</span>
+        </p>  
+        <label><input name="prefer" value="front-end-projects" type="checkbox">Front-end Projects</label>
+        <label>
+          <input name="prefer" value="back-end-projects" type="checkbox">Back-end Projects</label>
+        <label><input name="prefer" value="data-visualization" type="checkbox">Data Visualization</label>        
+    </div>
+
+    <div>
+        <p>Algum comentário ou sugestão?</p>
+        <textarea name="comment" placeholder="Entre com seu comentário ou sugestão aqui..."></textarea>
+    </div>
+
+    <div>
+        <button type="submit">
+          Enviar
+        </button>
+    </div>
+
+</div>
+
+
+</form>
+

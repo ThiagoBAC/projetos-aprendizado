@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: Sans-serif;
+    font-size: 40px;
+    background-color: grey;
+  }
+  
+  h2 {
+    color: #006400;
+    font-size: 15px
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+   }
+  
+  #img-caption {
+    width: 400px;
+    font-family: Sans-serif;
+    margin: auto;
+
+  }
+  
+  p {
+    font-family: Helvetica;
+    
+  }
+  
+  #tribute-link {
+    font-size: 20px;
+  }
+  
+  #tribute-info {
+    text-align: justify;
+  }

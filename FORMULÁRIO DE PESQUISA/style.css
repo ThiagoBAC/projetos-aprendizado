@@ -1,0 +1,24 @@
+body{
+    background-image:url(https://s2.glbimg.com/vHByUsV9fEnW-5HlpmLm0v-6cZo=/e.glbimg.com/og/ed/f/original/2020/11/17/como-escolher-o-computador-ideal-para-home-office.png);
+    font-size: 15px;
+    color: rgb(238, 225, 173);
+
+  }
+
+  #div1{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 200px;
+      margin-right: 200px;
+      background-color: black;
+      opacity: 80%;
+      padding: 100px;
+      font-family: sans-serif; 
+      border-radius: 15px; 
+      min-width: 300px;
+      max-width: auto;
+    }   
+
+  #title {
+      color: coral;
+    }

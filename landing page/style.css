@@ -1,0 +1,44 @@
+#header {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    margin: auto;
+    background-color: beige;
+    }
+    
+    h2 {
+        font-size: small;
+        text-align: justify;
+    } 
+    
+    
+    #header-img {
+        width: 200px;
+        height: auto;
+    }
+    
+    .nav-link:hover{
+        color: brown;
+    }
+
+    .nav-link {
+        color:darkblue;
+    }
+    
+    #nav-bar {
+        position: auto;
+        font-size: 10px;
+    } 
+    
+    @media (max-width: 600px)
+    {
+      #header {
+        display:block;
+       }
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+      }
+    
